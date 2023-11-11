@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Sans-Serif;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: cyan;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+h1.title{
+    
+    text-align: center;
+}
+
+    div#tribute-data {
+    
+      border-style: solid;
+      border-color: cyan;
+      background: white;
+      border-radius: 25px;
+      color: black;
+      height: 455px;
+      box-shadow: 1px 1px 1px cyan;
+      font-family: Georgia;
+      padding: 25px 25px;
+      margin: 40px;
+      margin-top: 50px;
+
+    }
+    
+div#tribute-data:hover{
+    border-color: white;
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+body {
+    
+    background: rgb(27, 27, 27);
+    
+}
+
+.car-1{
+    background-image: url(images/pinakbet.jpg);
+
+
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+
+}
+
+.card:hover {
+    border-color: white;
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card-lin a{
+    text-decoration: none;
+     color: black;
+}
+
+
+.card{
+    border-style: solid;
+    border-color: cyan;
+    background: white;
+    width: 330px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+    float: center;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.hov:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+.col1{
+    width: 450px;
+    float: left;
+    margin: 10px;
+}
+
+.col2{
+    width: 450px;
+    float: right;
+    margin: 10px;
+}
+
+button{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid cyan;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    text-align: center;
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+
+}
+
+.cen{
+     width: 100%;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
